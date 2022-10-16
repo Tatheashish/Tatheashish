@@ -1,0 +1,11 @@
+<input id="x1" type="text" onkeyup="myfunc()">
+<p>uppercase <span id="x2"></span></p>
+<p>lowercase <span id="x3"></span></p>
+<script>
+    function myfunc(){
+      text1=document.getElementById('x1').value.toUpperCase()
+      text2=text1.toLowerCase()
+       document.getElementById('x2').innerHTML=text1
+       document.getElementById('x3').innerHTML=text2
+   }
+</script>
